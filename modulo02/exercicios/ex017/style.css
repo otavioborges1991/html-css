@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css3?family=Work+Sans');
+
+body {
+    font-family: 'work sans', Arial, Helvetica, sans-serif;
+    /*
+    Medídas absolutas
+    cm = centimetros
+    mm = milimetros
+    in = polegadas
+    px = pixel
+    ponto e paica são medidas de tipografia de papel
+    não recomendado para telas
+    pt = ponto
+    pc = paica
+    
+    Medídas Relativas
+    em = relativo ao tamanho do M maiusculo da fonte
+    ex = relativo ao x minusculo da fonte
+    rem = relativo ao root font configurada no body
+    vw = largura da viewport. a tela.
+    vh = altura da viewport.
+    % = porcentagem 
+
+    recomendação usar px e em
+    16px geralmente = a 1 em
+    preferencialmente o em
+
+    */
+    font-size: 1em;
+    font-weight: 900;
+    /* weight, width, height*/
+}
+
+h1 {
+
+    /* 
+    Shorthand font precisa ser feito em ordem
+    font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font: bold 2em 'Work Sans';
+    text-align: right;
+}
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-align: justify;
+    text-indent: 1em;
+}
+

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*
+    paleta de cores pro meu site
+    de mais claro para mais escuro
+    Azul: 4F71CF 3D569B 2F4172 1F2A4A 0E1321
+    Amarelo: FFE24D E6CD49 AA9839 6E6226 312C12
+    Laranja: FFA14D E69349 AA6E39 6E4826 312112
+*/ 
+
+
+body {
+    background-image: linear-gradient(450deg, #4F71CF, #3D569B, #2F4172, #1F2A4A, #0E1321);
+}
+
+main {
+    background-color: whitesmoke;
+    border: 100px;
+    margin: 0px 100px;
+    padding: 10px;
+    border-radius: 1em;
+
+}
+
+
+*.eu {
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+
+img {
+    border-radius: 100px;
+}

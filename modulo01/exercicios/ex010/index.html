@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>
+        Visitando o repositório publico no github do professor Guanabara
+        <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Clique aqui</a> para acessar.
+    </p> 
+    <p>
+        Tambem pode acessar o canal gratuito do professor Guanabara no youtube
+        <a href="https://www.youtube.com/user/cursosemvideo" target="_blank">Clique aqui</a> para acessar.
+    </p>
+    <p>
+        Visitando o site do <a href="https://www.cursoemvideo.com">Curso em Vídeo</a> para acessar.
+    </p>
+    <hr>
+    <p>
+        A tag &lt;a&gt; é usada para criar links. O atributo <strong>href</strong> é usado para indicar o endereço do link.
+        O atributo <strong>target</strong> é usado para indicar onde o link será aberto. O valor <strong>_blank</strong> indica que o link será aberto em uma nova aba.
+    </p>
+    <hr>
+    <h2>
+        Usando links internos
+    </h2>
+    <p>Esta é a primeira pagina do meu site se quiser pode visitar minha outra pagina
+        <a href="pag002.html" rel="next" target="_self">Clique aqui</a> para acessar.
+    </p>
+    <p>Se quiser pode visitar a pagina de noticias
+        <a href="noticias/pag003.html" rel="next" target="_self">Clique aqui</a> para acessar.
+    </p>
+    <p>Esta pagina é um oferecimento <a href="https://www.hostnet.com.br" target="_blank" rel="noopener">hostnet</a> <!-- rel="noopener" is used to prevent the new page from having access to the window.opener object. --></p>
+    <hr>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livros/01 - História da Internet.pdf" download type="application/pdf">História da Internet - PDF</a></li>
+        <li><a href="livros/01 - História da Internet.zip" download type="application/zip">Arquivo compactado zip</a></li>
+        <li><a href="#" download>Download do arquivo 03</a></li>
+    </ul>
+
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web fonts, local</title>
+    <style>
+        @font-face {
+            font-family: 'Jetbrains mono';
+            src: url('fontes/JetBrainsMono-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (apple advanced typography)
+                - svg
+            */
+
+        };
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+        code {
+            font-family: 'Jetbrains mono';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Web fonts usadas localmente</h1>
+    <p>code snippet usando a fonte local da familia Jetbrains mono</p>
+    <pre>
+    <code>
+        def soma(a, b):
+            c = a + b
+            return c
+    </code>
+    </pre>
+    
+</body>
+</html>

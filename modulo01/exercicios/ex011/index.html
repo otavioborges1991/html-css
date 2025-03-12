@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou simplesmente aumente e diminue tamanho do navegador, ou tente zoom in/out</p>
+
+    <picture>
+        <source media="(max-width: 700)" srcset="imagens/foto_300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto_700.png" type="image/png">
+        <img src="imagens/foto_1000.png" alt="Imagen Flexivel">
+    </picture>
+
+    <h1>Vamos aprender a reproduzir audio em html</h1>
+    <audio src="midias/happy-mistake.mp3" controls autoplay loop></audio> <!-- autoplay faz o audio iniciar automaticamente, só funcionar se o navegador permitir por preferencia do usuário --> 
+    <audio controls preload="metadata">
+        <source src="midias/guanacast-33.mp3" type="audio/mp3"> <!-- mp3 é o formato mais comum -->
+        <source src="midias/guanacast-33.ogg" type="audio/ogg"> <!-- ogg é um formato livre --> 
+        Seu navegador não suporta audio
+    </audio>
+    <audio controls preload="metadata">
+        <source src="midias/When You're Not Looking - Nathan Moore.mp3" type="audio/mp3"> 
+
+        Seu navegador não suporta audio
+    <p>
+        Formatos compativeis de audio, são mp3, ogg, wav, aac, m4a, wma, flac, alac, aiff, pcm, dsd, dsf, dff, opus, webm
+    </p>
+    <h1>Vamos aprender a reproduzir video em html</h1>
+    <video src="midias/video.mp4" controls></video> <!-- autoplay faz o video iniciar automaticamente, só funcionar se o navegador permitir por preferencia do usuário -->
+    <p>
+        Formatos compativeis são: mp4, ogg, webm, avi, mov, flv, mkv, wmv, m4v, 3gp, 3g2, mpeg, mpg, mts, m2ts, ts, vob, divx, xvid, rm, rmvb, asf, swf, ogv, f4v, h264, h265, hevc, vp8, vp9, av1
+    </p>
+    
+</body>
+</html>

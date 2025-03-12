@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+
+/*
+    Esquema de cores
+    #83e0ac   
+    #2ea866   
+    #004c24
+*/
+
+body {
+    background-color: #83e0ac;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, #83e0ac, #004c24);
+    padding: 0px;
+    border: 0px;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+h1, h2 {
+    font-family: 'droid';
+    color: #004c24;
+}
+
+
+h2 {
+    background-image: linear-gradient(to right, #2ea866, #2ea8676e);
+}
+
+.cabeçalho {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: none;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+h2.cabeçalho {
+    font-size: 1em;
+}
+
+nav {
+    text-align: left;
+    margin-left: 1em;
+    font-size: medium;
+}
+nav > a {
+    margin-right: 0.5em;
+}
+
+main {
+    background-color: white;
+    margin: 0px 5%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 1.5em;
+    box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+
+}
+
+footer {
+    background-color: #004c24;
+    margin-top: 10px;
+    color: #83e0ac;
+    text-align: center;
+}
+
+
+h1 {
+    margin: 0px;
+    font-size: 2em;
+}
+
+.espaçamento {
+    height: 2em;
+}
+
+img, iframe {
+    display: block;
+    margin: auto;
+}
+
+#video_player {
+    background-color: #004c24;
+    padding: 2em;
+}
+
+aside {
+    background-color: #83e0ac;
+    border-radius: 10px;
+}
+
+aside > p {
+    margin: 10px;
+}
+
+h3 {
+    background-color: #004c24;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 1em;
+}
+
+p {
+    text-indent: 1em;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+}
+
+div.lista {
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+p > a {
+    font-weight: bolder;
+    color: #004c24;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.250);
+}
+
+p > a::after{
+    content: url(link-solid.png);
+
+}
+
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

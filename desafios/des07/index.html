@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexiveis</title>
+</head>
+<body>
+    <h1>Imagens Flexiveis.</h1>
+    <p>Você esta vendo a imagem completa? tente ampliar o tamanho da janela, ou diminuir o tamanho da imagem para ela caber na tela.</p>
+    <picture>
+        <source media="(min-width:1250px )" srcset="imagens/paisagem-g.png" type="image/png">
+        <source media="(min-width:800px )" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-p.png" alt="Braços abertos">
+    </picture>
+    
+</body>
+</html>

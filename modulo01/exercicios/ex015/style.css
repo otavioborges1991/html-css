@@ -1,0 +1,28 @@
+@charset "utf-8"; /* Define a codificação de caracteres para o arquivo CSS */
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: darkred;
+    background-color: darkgoldenrod;
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+}
+
+h2 {
+    color: darkblue;
+    background-color: darkgoldenrod;
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+}
+h3 {
+    color: darkred;
+}
+p {
+    text-align: justify; /* Justifica o texto */
+    text-indent: 30px; /* Recuo da primeira linha do parágrafo */
+}
