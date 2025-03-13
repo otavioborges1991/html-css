@@ -9,7 +9,7 @@
 7. [Desafio 07](desafios/des07/index.html)
 8. [Desafio 08](desafios/des08/index.html)
 9. [Desafio 09](desafios/des09/index.html)
-10. [Desafio 10]("desafios/des10 - sem ajuda/android.html")
+10. [Desafio 10](desafios/des10/android.html)
 11. [Desafio 11](desafios/des11)
 12. [Desafio 12](desafios/des12)
 13. [Desafio 13](desafios/des13)
