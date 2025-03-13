@@ -6,6 +6,6 @@
 
 ## Resoluçao dos exercicios
 
-[Exercicios](exercicios.html)
+[Exercicios](exercicios.md)
 
 ---
