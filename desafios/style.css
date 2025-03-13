@@ -3,7 +3,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: radial-gradient(circle, yellow 2.5%, red 10%, green 60%);
+    background-color: green;
     color: black;
 }
 
