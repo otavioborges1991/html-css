@@ -2,12 +2,10 @@
 
 ## Resoluçao dos desafios
 
-[Desafios](desafios.html)
+[Desafios](desafios.md)
 
 ## Resoluçao dos exercicios
 
 [Exercicios](exercicios.html)
 
 ---
-
-[Teste](teste.md)
