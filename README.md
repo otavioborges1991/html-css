@@ -2,4 +2,4 @@
 <h2>Resoluçao dos desafios</h2>
 <a href="desafios.html">Desafios</a>
 <h2>Resoluçao dos exercicios</h2>
-<a href="Exercicios">Exercicios</a>
+<a href="exercicions.html">Exercicios</a>
