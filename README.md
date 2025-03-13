@@ -1,11 +1,8 @@
 # Conteudo do curso
 
-## Resoluçao dos desafios
+## Resoluçao dos desafios e exercicios
 
 [Desafios](desafios.md)
-
-## Resoluçao dos exercicios
-
 [Exercicios](exercicios.md)
 
 ---
