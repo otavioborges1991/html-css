@@ -2,6 +2,8 @@
 
 ## Resoluçao dos desafios e exercicios  
 
-[Desafios](desafios.md)  
-[Exercicios](exercicios.md)  
+[Desafios](desafios.md)
+
+[Exercicios](exercicios.md)
+
 ---
