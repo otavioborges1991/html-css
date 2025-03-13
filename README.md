@@ -2,8 +2,10 @@
 
 ## Resoluçao dos desafios
 
-[title](desafios.html)
+[Desafios](desafios.html)
 
 ## Resoluçao dos exercicios
 
-[title](exercicios.html)
+[Exercicios](exercicios.html)
+
+---
