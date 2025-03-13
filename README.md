@@ -10,4 +10,4 @@
 
 ---
 
-[Teste] (teste.md)
+[Teste](teste.md)
