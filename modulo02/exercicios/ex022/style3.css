@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    border: 1px dashed black;
+    height: 98vh;
+    background-image: url(https://i.pinimg.com/originals/b0/08/06/b0080608cc2fe2fd12333d6ff8ad2c0a.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
