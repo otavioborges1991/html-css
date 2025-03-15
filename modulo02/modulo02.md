@@ -3,9 +3,7 @@
 ## Desafios
 
 1. [Desafio 10](desafios/des10/android.html)
-2. [Desafio 11](desafios/des11)
-3. [Desafio 12](desafios/des12)
-4. [Desafio 13](desafios/des13)
+2. [Desafio 11](desafios/des11/index.htmldesafios/des11)
 
 ---
 
@@ -31,5 +29,6 @@
 18. [Exercicio 022 d](exercicios/ex022/fundo04.html)
 19. [Exercicio 022 e](exercicios/ex022/fundo05.html)
 20. [Exercicio 022 e](exercicios/ex022/fundo06.html)
+21. [Exercicio 022 f](exercicios/ex022/fundo07.html)
 
 ---
