@@ -27,8 +27,9 @@
 14. [Exercicio 021 c](exercicios/ex021/caixa03.html)
 15. [Exercicio 022 a](exercicios/ex022/fundo01.html)
 16. [Exercicio 022 b](exercicios/ex022/fundo02.html)
-16. [Exercicio 022 c](exercicios/ex022/fundo03.html)
-16. [Exercicio 022 d](exercicios/ex022/fundo04.html)
-16. [Exercicio 022 e](exercicios/ex022/fundo05.html)
+17. [Exercicio 022 c](exercicios/ex022/fundo03.html)
+18. [Exercicio 022 d](exercicios/ex022/fundo04.html)
+19. [Exercicio 022 e](exercicios/ex022/fundo05.html)
+20. [Exercicio 022 e](exercicios/ex022/fundo06.html)
 
 ---
