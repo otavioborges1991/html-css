@@ -4,6 +4,7 @@
 
 1. [Desafio 10](desafios/des10/android.html)
 2. [Desafio 11](desafios/des11/index.html)
+3. [Desafio 12](desafios/des12/index.html)
 
 ---
 
