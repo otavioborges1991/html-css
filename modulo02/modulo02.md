@@ -18,7 +18,7 @@
 5. [Exercicio 017 1](ex017/fonte02.html)
 6. [Exercicio 018 1](ex018/fonte01.html)
 7. [Exercicio 018 2](ex018/fonte02.html)
-8. [Exercicio 019](ex019/seletor01.html)
+8. [Exercicio 019](exercicios/ex019/seletor01.html)
 9. [Exercicio 020 1](ex020/pseudoclasse.html)
 10. [Exercicio 020 2](ex020/hover.html)
 11. [Exercicio 020 3](ex020/links.html)
