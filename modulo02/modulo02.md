@@ -5,6 +5,8 @@
 1. [Desafio 10](desafios/des10/android.html)
 2. [Desafio 11](desafios/des11/index.html)
 3. [Desafio 12](desafios/des12/index.html)
+4. [Desafio 13 a](desafios/des13/tabela1.html)
+5. [Desafio 13 b](desafios/des13/tabela2.html)
 
 ---
 
@@ -31,5 +33,8 @@
 19. [Exercicio 022 e](exercicios/ex022/fundo05.html)
 20. [Exercicio 022 e](exercicios/ex022/fundo06.html)
 21. [Exercicio 022 f](exercicios/ex022/fundo07.html)
+22. [Exercicio 023 a](exercicios/ex023/tabela001.html)
+23. [Exercicio 023 b](exercicios/ex023/tabela002.html)
+24. [Exercicio 023 c](exercicios/ex023/tabela003.html)
 
 ---
