@@ -10,7 +10,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
 }
 
 html, body {
@@ -64,16 +63,29 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(33, 36, 36);
-    color: aliceblue;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 14px 0px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+
 }
 
 section.imagem p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
 }
 
 
