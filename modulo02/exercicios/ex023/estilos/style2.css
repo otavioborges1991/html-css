@@ -7,8 +7,23 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
-
+    position: relative;
 }
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+}
+
+tbody tr:nth-child(2n) { /* odd ou even tambem tem o mesmo efeito */
+    background-color: lightgrey;
+}
+
 
 td, th {
     border: 1px solid black;
@@ -20,6 +35,14 @@ thead, tfoot {
     color: white;
 }
 
+thead tr th {
+    position: sticky;
+    top: -1px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
 td.num {
     text-align: right;
 }
+
