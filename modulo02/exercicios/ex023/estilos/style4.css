@@ -22,3 +22,8 @@ caption {
 h1 {
     text-align: center;
 }
+
+td.num {
+    text-align: right;
+    font-weight: bold;
+}
