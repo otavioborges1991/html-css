@@ -27,6 +27,8 @@ td {
 
 .tipo {
     text-align: center;
+    background-color: white;
+    color: black;
 }
 
 td.num {
