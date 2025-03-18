@@ -38,5 +38,7 @@
 23. [Exercicio 023 b](exercicios/ex023/tabela002.html)
 24. [Exercicio 023 c](exercicios/ex023/tabela003.html)
 25. [Exercicio 023 d](exercicios/ex023/tabela004.html)
+26. [Exercicio 023 e](exercicios/ex023/tabela005.html)
+27. [Exercicio 023 f](exercicios/ex023/tabela006.html)
 
 ---
