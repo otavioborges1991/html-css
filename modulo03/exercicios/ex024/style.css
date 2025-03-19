@@ -11,3 +11,8 @@ iframe {
     border: 2px solid black;
     margin: auto;
 }
+
+iframe#tela {
+    width: 96vw;
+    height: 550px;
+}
