@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0px;
+    width: fit-content;
+    background-color: transparent;
+}
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    size: fit-content;
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+}

@@ -32,21 +32,12 @@ div#iphone-frame div#iphone-screen {
     width: 85%;
 }
 
-
-
 iframe {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-}
-
-aside {
-    margin: auto;
-    align-items: right;
-
-
 }
 
 img.icone {
@@ -56,3 +47,4 @@ img.icone {
     margin: 10px;
     border-radius: 50%;
 }
+
