@@ -4,9 +4,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
-div {
+form {
     border: 1px solid #000;
     max-width: max-content;
     padding: 10px;
     border-radius: 5px;
+}
+
+input {
+    font-family: monospace;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
 }
