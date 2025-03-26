@@ -8,7 +8,7 @@
 
 ## Exercicios
 
-1. ### Exercicio 24
+1. Exercicio 24
 
     - [Exercicio 24 a](ex024/iframe001.html)
     - [Exercicio 24 b](ex024/iframe002.html)
