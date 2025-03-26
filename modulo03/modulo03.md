@@ -2,7 +2,7 @@
 
 ## Desafios
 
-- [Desafio 15](desafios/des15/index.html)
+1. [Desafio 15](desafios/des15/index.html)
 
 ---
 
