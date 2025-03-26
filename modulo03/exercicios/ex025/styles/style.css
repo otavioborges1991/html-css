@@ -4,13 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-form {
-    border: 1px solid #000;
-    max-width: max-content;
-    padding: 10px;
-    border-radius: 5px;
-}
-
 input {
     font-family: monospace;
     margin: 5px 0;
@@ -19,3 +12,6 @@ input {
     border: 1px solid #000;
 }
 
+fieldset {
+    max-width: max-content;
+}

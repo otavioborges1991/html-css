@@ -9,18 +9,27 @@
 <body>
     <h1>Exemplo de Formularios</h1>
     <form action="cadastro.php" autocomplete="on">
-        <p>
-            <label for="iemail">e-mail: </label>
-            <input type="email" name="email" id="iemail" required autocomplete="email">
-        </p>
-        <p>
-            <label for="itel">Telefone: </label>
-            <input type="tel" name="telefone" id="itel" autocomplete="tel-national">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="50" required autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail">e-mail: </label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="telefone" id="itel" autocomplete="tel-national" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+                <!-- Estudar mais sobre RegEx
+                     HTML 5 telephone patterns -->
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
     </form>
     
 </body>
