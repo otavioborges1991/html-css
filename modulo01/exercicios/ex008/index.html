@@ -3,72 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de textos</title>
+    <title>Outras formatações</title>
 </head>
 <body>
-    <h1>Principais formataçãos</h1>
+
+    <h1>Outras formatações</h1>
     <hr>
-    <h2>Negrito/Destaque</h2> 
-    <p>Texto em <strong>negrito</strong></p> <!-- strong é uma tag de formatação de texto -->
-    <p>Texto em <b>negrito</b></p> <!-- b é uma tag de formatação de texto -->
-    <p>
-        A primeira usa a tag &lt;strong&gt; é uma tag semântica <br>
-        e a segunda a tag &lt;b&gt; não é tag não semântica </p>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('Teste')</code> é usado em javascript.</p>
+    <p>O proximo texto é um codido em python</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número:'))
+            if num % 2 == 0:
+                print('O número é par')
+            else:
+                print('O número é ímpar')
+        </code>
+    </pre>
     <hr>
-    <h2>Itálico/Enfase</h2>
-    <p>Texto em <em>itálico</em></p> <!-- em é uma tag de formatação de texto -->
-    <p>Texto em <i>itálico</i></p> <!-- i é uma tag de formatação de texto -->
+    <h2>Citações e citações completas</h2>
+    <p>Albert Einstein disse uma vez: <q>Se você não consegue explicar algo de forma simples, é porque não entendeu bem o suficiente.</q></p> 
     <p>
-        <i>Texto em italico</i>
-        A primeira linha usa tag &lt;em&gt; é uma tag semântica <br> 
-        e a segunda a tag &lt;i&gt; não é tag semântica </p> 
+        Citações são feitas com o comando <code>&lt;q&gt;</code> e <code>&lt;blockquote&gt;</code>. <br>
+        O <code>&lt;q&gt;</code> é usado para citações curtas e o <code>&lt;blockquote&gt;</code> para citações longas, ou citações completas.
+        exemplo de block quote: <br>
+        <blockquote cite="https://www.brainyquote.com/quotes/albert_einstein_131045">
+            <p>Se você não consegue explicar algo de forma simples, é porque não entendeu bem o suficiente.</p></blockquote>
     </p>
     <hr>
-    <h2>Texto Marcado</h2>
-    <p>Podemos criar tambem um <mark style="background-color: lime;">texto marcado</mark> usando a tag &lt;mark&gt;</p>
-    <p>Temos em outro parágrafo <mark>outro texto marcado</mark></p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Styles Sheats">CSS</abbr></p>
     <hr>
-    <h2>Texto grande e texto pequeno</h2>
-    <p>Texto em <big>grande</big></p> <!-- big é uma tag de formatação de texto -->
-    <p>para criar texto grande use &lt;big&gt;</p>
-    <p>Texto em <small>pequeno</small></p> <!-- small é uma tag de formatação de texto -->
-    <p>para criar texto pequeno use &lt;small&gt;</p>
+    <h2>Texto invertido</h2>
+    <p>Este texto está invertido <bdo dir="rtl">Estou aprendendo a criar coisa em html</bdo></p>
     <hr>
-    <h2>Texto deletado</h2>
-    <p>Texto com <del>deletado</del></p> <!-- del é uma tag de formatação de texto -->
-    <p>Para criar texto deletado use &lt;del&gt;</p>
-    <p>Texto marcado como deletado para indicar que deve ser lido, mas não considerado.</p>
-    <hr>
-    <h2>Texto inserido e Sublinhado</h2>
-    <p>Texto com <ins>inserido</ins></p> <!-- ins é uma tag de formatação de texto -->
-    <p>Para criar texto inserido use &lt;ins&gt;</p>
-    <p>Texto inserido é uma tag semântica</p>
-    <p> Texto marcado como inserido para indicar que foi adicionado depois.</p>
-    <p>Texto com <u>sublinhado</u></p> <!-- u é uma tag de formatação de texto -->
-    <p>Para criar texto sublinhado use &lt;u&gt;</p>
-    <p>Sublinhado é um tag não semântica</p>
-    <hr>
-    <h2>Texto sobrescrito e subscrito</h2>
-    <p>Texto com <sup>sobrescrito</sup></p> <!-- sup é uma tag de formatação de texto -->
-    <p>Para criar texto sobrescrito use &lt;sup&gt;</p>
-    <p>para inserir coisas do tipo 10<sup>20</sup> (dez elevado a vigezima potencia)</p>
-    <p>sobrescrito é um tag semântica</p>
-    <p>Texto com <sub>subscrito</sub></p> <!-- sub é uma tag de formatação de texto -->
-    <p>para criar coisas como H<sub>2</sub>O</p>
-    <p>Para criar texto subscrito use &lt;sub&gt;</p>
-    <p>subscrito é um tag semântica</p>
-    <hr>
-    <h2>Texto com citação</h2>
-    <p>Texto com <q>citação</q></p> <!-- q é uma tag de formatação de texto -->
-    <p>Para criar texto com citação use &lt;q&gt;</p>
-    <hr>
-    <h2>Citação em bloco</h2>
-    <p>Texto com <blockquote>citação em bloco</blockquote></p> <!-- blockquote é uma tag de formatação de texto -->
-    <p>Para criar texto com citação em bloco use &lt;blockquote&gt;</p>
-    <hr>
-    
-    
-
-    
 </body>
 </html>
