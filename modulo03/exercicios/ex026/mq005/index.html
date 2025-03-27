@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">Menu</i>
@@ -49,26 +50,16 @@
             } else {
                 itens.style.display = 'block'
             }
-            
-            // Toggle the menu and burger icon classes
-            // and change the innerHTML of the burger icon based on the menu state
-            /*
-            const menu = document.querySelector('menu');
-            menu.classList.toggle('active');
-            const burger = document.getElementById('burger');
-            burger.classList.toggle('active');
+        }
 
-            if (menu.classList.contains('active')) {
-                burger.innerHTML = 'close';
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
             } else {
-                burger.innerHTML = 'menu';
+                itens.style.display = 'none'
             }
-            if (menu.classList.contains('active')) {
-                menu.style.display = 'block';
-            } else {
-                menu.style.display = 'none';
-            }
-                */
+            
+
         }
     </script>    
 </body>
