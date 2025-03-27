@@ -32,5 +32,6 @@
     - [Exercicio 26 a](exercicios/ex026/mq001/index.html)
     - [Exercicio 26 b](exercicios/ex026/mq002/index.html)
     - [Exercicio 26 c](exercicios/ex026/mq003/index.html)
+    - [Exercicio 26 d](exercicios/ex026/mq004/index.html)
 
 ---
