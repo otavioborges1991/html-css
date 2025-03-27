@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">Menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Ajuda</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </menu>
@@ -39,6 +41,35 @@
             </aside>
         </article>
     </main>
-    
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+            
+            // Toggle the menu and burger icon classes
+            // and change the innerHTML of the burger icon based on the menu state
+            /*
+            const menu = document.querySelector('menu');
+            menu.classList.toggle('active');
+            const burger = document.getElementById('burger');
+            burger.classList.toggle('active');
+
+            if (menu.classList.contains('active')) {
+                burger.innerHTML = 'close';
+            } else {
+                burger.innerHTML = 'menu';
+            }
+            if (menu.classList.contains('active')) {
+                menu.style.display = 'block';
+            } else {
+                menu.style.display = 'none';
+            }
+                */
+        }
+    </script>    
 </body>
 </html>

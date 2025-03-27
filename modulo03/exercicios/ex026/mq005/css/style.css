@@ -25,10 +25,21 @@ header h1 {
     text-align: center;
     padding: 20px 0;
 }
+i#burger {
+    display: block;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burger:hover {
+    background-color: #a2a3a3;
+    color: rgb(66, 66, 66);
+}
 
 menu {
-    display: block;
-
+    display: none;
 }
 
 menu ul {
