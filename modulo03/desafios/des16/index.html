@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- Aqui vai a imagem -->
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Sejá bem vindo(a), faça login ou crie sua conta para começar a usar nossos serviços</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div id="campo">
+                        <div>
+                            <i class="material-icons">person</i>
+                            <input autocomplete="email" type="email" name="login" id="ilogin" placeholder="Seu e-mail">
+                            <label for="ilogin"></label>
+                        </div>
+                        <div class="campo">
+                            <i class="material-icons">key</i>
+                            <input maxlength="30" minlength="6" autocomplete="current-password" type="password" name="senha" id="isenha" placeholder="Sua senha">
+                            <label for="isenha"></label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a class="botao" href="esqueci.html">Criar Conta<i class="material-icons">person_add</i></a> 
+                    <a class="botao" href="esqueci.html">Esqueci a senha<i class="material-icons">mail</i></a> 
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    
+</body>
+</html>

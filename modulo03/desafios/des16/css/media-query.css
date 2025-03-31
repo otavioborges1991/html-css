@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+:root {
+    /* Paleta de cores extraida da imagen de fundo */
+    --color0: #270A09ff; /* black bean 2 */
+    --color1: #461808ff; /* black bean */
+    --color2: #7F6759ff; /* coyote */
+    --color3: #A8998Bff; /* khaki */
+    --color4: #C9C3B5ff; /* bone */
+}
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    section#login {
+        width: 80vw;
+    }
+    section#login div#imagem {
+        width: 45%;
+        height: 100%;
+        float: left;
+        background-image:  url(../imagens/pexels-efrem-efre-pp.jpg) center center;
+    }
+
+    section#login div#formulario {
+        float: right;
+        width: 50%;
+    }
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    
+    section#login {
+        width: 700px;
+    }
+
+    section#login div#imagem {
+        background-image: url(../imagens/pexels-efrem-efre-p.jpg);
+        float: left;
+    }
+    section#login div#formulario {
+        width: 55%;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    section#login {
+        width: 900px;
+    }
+    section#login div#imagem {
+        background-image: url(../imagens/pexels-efrem-efre-m.jpg);
+        float: right;
+    }
+    section#login div#formulario {
+        width: 55%;
+    }
+    div#formulario h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    div#formulario p {
+        margin: 1em;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    section#login {
+        width: 1000px;
+    }
+    section#login div#imagem {
+        background-image: url(../imagens/pexels-efrem-efre-g.jpg);
+    }
+    section#login div#formulario {
+        width: 55%;
+    }
+    
+
+
+
+ } 
+ 
+
+ @media only screen and (min-width: 4000px) {
+    section#login {
+        width: 2000px;
+    }
+    section#login div#imagem {
+        background: var(--color1) url(../imagens/pexels-efrem-efre-gg.jpg);
+    }
+ } 
