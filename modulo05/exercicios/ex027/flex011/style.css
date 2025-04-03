@@ -10,18 +10,16 @@ div.item {
     background-color: lightblue;
     border: 1px solid black;
     text-align: center;
-    flex-basis: 200px;
-    flex-grow: 0;
-    flex-shrink: 2;
     padding: 5px;
     margin: 10px;
 }
+div.item.small {
+    flex: 0 2 150px;
+}
 div.item.grow {
-    flex-grow: 1;
-    flex-shrink: 0;
+    flex: 1 1 200px;
 }
 div.item.larger {
-    flex-grow: 2;
-    flex-shrink: 1;
+    flex: 2 0 250px;
 }
 
