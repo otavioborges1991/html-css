@@ -3,28 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Otávio Vinicios Borges">
+    <meta name="description" content="Desafio 18 - HTML e CSS - Conteúdo flexível.">
     <title>Conteúdo flexivel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Conteúdo flexível</h1>
+        <h1>
+            Conteúdo flexível
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe numquam dolor nobis similique veritatis, totam repellat. Doloremque quidem dignissimos fugiat ipsum modi atque similique commodi incidunt, ex, repellat accusamus.
+        </p>
     </header>
     <main>
-        <section class="container">
-            <div class="card">
-                <h2>Card 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="card">
-                <h2>Card 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="card">
-                <h2>Card 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
+        <section class="flex-content">
+            <article class="media-text">
+                <div class="text">
+                    <h1>Conteúdo Media-Text</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, non. Id deleniti eaque officia sapiente tempora quam error quidem corrupti! Provident iste dolore ducimus facere. Nostrum minus quis aliquid sequi.
+                    </p>
+                </div>
+                <div class="media">
+                    <img src="city scape pp.jpg" alt="City scape japan?" class="media-img">
+                </div>
+            </article>
+            <article class="text-media">
+                <div class="text">
+                    <h1>Elemento Text-Media</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, rem doloribus eligendi, voluptatem mollitia sint modi illum magni praesentium eveniet, iste illo. Et officia, provident eligendi numquam mollitia nam iste?
+                    </p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A minima suscipit eligendi quaerat quo perferendis at officia cupiditate praesentium maiores labore, ullam iure minus asperiores corrupti recusandae nisi voluptates repudiandae?
+                    </p>
+                </div>
+                <div class="media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/c-1o_X0stUw?si=EQvCuslEJYINPPvR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+        <section class="normal-content">
+            <h1>
+                Conteudo Normal
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatibus, neque atque fugiat laudantium quis voluptas nam doloremque officiis, blanditiis quod quos? Ut ad sit dignissimos distinctio voluptates sunt eos.
+            </p>
         </section>
     </main>
+    <footer>
+        Site criado por Otávio Vinicios Borges.
+    </footer>
 </body>
 </html>
