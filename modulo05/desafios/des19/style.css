@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body { 
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+div.conteiner {
+    display: grid;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+div.conteiner div {
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
