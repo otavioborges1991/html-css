@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+:root {
+  --color0: #0CA2D4;
+  --color1: #F0C808;
+  --color2: #DD1C1A;
+  --color3: #1B1725;
+  --color4: #9BBEC7;
+  --color5: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main; 
+}
+footer {
+  grid-area: footer;
+}
+
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 2fr 2fr;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right bottom, var(--color0), var(--color3));
+}
+
+div a {
+  display: block;
+  text-decoration: none;
+  color: var(--color5);
+}
+
+.item {
+  background-color: rgba(245, 245, 245, 0.432);
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.material-symbols-outlined {
+  font-size: 2em;
+  color: #333;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    grid-template-areas: 
+      "header header header"
+      "nav nav nav"
+      "main main main"
+      "footer footer footer";
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto 1fr auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    grid-template-areas: 
+    "header header header"
+    "nav main main"
+    "footer footer footer";    
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto 1fr auto;
+  }
+}
+
+div.vertical {
+  display: flex;
+  flex-direction: ;
+}
