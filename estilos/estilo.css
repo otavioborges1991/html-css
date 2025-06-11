@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+:root {
+  --color-1: #f0f0f0;
+  --color-2: #464444;
+  --color-3: #f1da04;
+  --color-4: #bd0a0a;
+  --shadow: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: var(--color-3);
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span all;
+    background-color: var(--color-1);
+    border-radius: 10px;
+    text-align: center;
+}
+nav {
+    grid-row: 2 / 17;
+    grid-column: 1 / 4;
+
+    text-align: center;
+    background-color: var(--color-1);
+    border-radius: 10px;
+
+}
+main {
+    grid-row: 2 / 17;
+    grid-column: 4 / -3;
+
+    text-align: center;
+    background-color: var(--color-1);
+    border-radius: 10px;
+}
+aside {
+    grid-row: 2 / 17;
+    grid-column: -3 / -1;
+
+    text-align: center;
+    background-color: var(--color-1);
+    border-radius: 10px;
+}
+footer {
+    grid-row: 17 / -1;
+    grid-column: 1 / -1;
+
+    text-align: center;
+    background-color: var(--color-1);
+    border-radius: 10px;
+
+}
+
+/*
+* adicionando sombra aos elementos
+*/
+header, nav, main, aside, footer {
+    box-shadow: 0 4px 8px var(--shadow);
+}
